@@ -1,0 +1,21 @@
+.marcoColumnas{
+    display: flex;
+
+}
+.columna{
+    flex: 1;
+    background-color: orange;
+    border: 1px solid black;
+}
+.colorNaranja{
+    flex: 1;
+}
+.colorAzul{
+    background-color: blue;
+}
+.colorNaranja{
+    background-color: orange;
+}
+.colorCafe{
+    background-color: brown;
+}
