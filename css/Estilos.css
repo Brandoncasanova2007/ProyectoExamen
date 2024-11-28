@@ -1,21 +1,59 @@
-.marcoColumnas{
+body {
+    margin: 0;
+    height: 100vh;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+}
 
+.contenedor {
+    display: flex;
+    width: 100vw; 
+    height: 100vh; 
 }
-.columna{
+
+.izquierda {
+    flex: 2;
+    background-color: #0073e6;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+.derecha {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+.dato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2rem;
     flex: 1;
-    background-color: orange;
-    border: 1px solid black;
 }
-.colorNaranja{
-    flex: 1;
+
+/* Estilo de cada fila */
+.fila1 {
+    background-color: #ff6600;
+    display: flex;
+    justify-content: space-between;
 }
-.colorAzul{
-    background-color: blue;
+
+.fila1 div {
+    width: 50%;
+    text-align: center;
 }
-.colorNaranja{
-    background-color: orange;
+
+.fila2 {
+    background-color: #8B4513;
 }
-.colorCafe{
-    background-color: brown;
+
+.fila3 {
+    background-color: #228B22;
 }
